@@ -1,7 +1,7 @@
 {
     "templateId": "com.wosa.bluebubbles.messages",
     "loc_name": "BlueBubbles",
-    "loc_shortName": "iMessage",
+    "loc_shortName": "BlueBubbles",
     "hidden": false,
     "invisible": false,
     "implementation": "palm://com.wosa.bluebubbles.service/",
@@ -14,7 +14,7 @@
     "capabilityProviders": [{
         "id": "com.wosa.bluebubbles.messages",
         "loc_name": "BlueBubbles",
-        "loc_shortName": "iMessage",
+        "loc_shortName": "BlueBubbles",
         "serviceName":"iMessage",
         "capability": "MESSAGING",
         "alwaysOn": true,

@@ -41,7 +41,7 @@ The server running at `192.168.10.3:8080` is the BlueBubbles instance on Jon's M
 ## Architecture
 - `service/serviceEndPoints.js` — all sync logic
 - `service/prologue.js` — Foundations imports, Base64, `calcSyncDateTime`, `logNoticeably`
-- `app/source/iMessageBridge.js` — Enyo UI (server/port config, manual sync trigger)
+- `app/source/bluebubbles.js` — Enyo UI (server/port config, manual sync trigger)
 - DB8 kinds: `com.wosa.bluebubbles.immessage:1` (messages), `com.wosa.bluebubbles.chatthread:1` (threads), `com.wosa.bluebubbles.transport:1` (server config)
 - All HTTP(S) is done via the system **`curl`** binary through `child_process.execFile` (the shared `curlRequest` helper at the top of `serviceEndPoints.js`). curl handles GET and POST, negotiates modern TLS (1.3) via the platform's updated curl, and uses `-k` to accept self-signed certs. The device's bundled Node `http`/`https` and BusyBox `wget` are no longer used (too old for TLS 1.3; wget also can't POST a body).
 

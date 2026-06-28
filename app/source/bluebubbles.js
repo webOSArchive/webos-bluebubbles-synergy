@@ -1,5 +1,5 @@
 enyo.kind({
-	name: "iMessageBridge",
+	name: "BlueBubbles",
 	kind: "VFlexBox",
 	defaultServer: "",
 	defaultPort: 443,

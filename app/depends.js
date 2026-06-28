@@ -1,6 +1,6 @@
 enyo.depends(
-    "source/iMessageBridge.js",
+    "source/bluebubbles.js",
     "helpers/Prefs.js",
 	"helpers/Updater.js",
-    "css/imessagebridge.css"
+    "css/bluebubbles.css"
 );
