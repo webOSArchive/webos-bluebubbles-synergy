@@ -1,0 +1,18 @@
+{
+    "id": "com.wosa.bluebubbles.transport:1",
+    "owner": "com.wosa.bluebubbles.service",
+    "indexes": [
+        { 
+            "name": "lastSync", 
+            "props": [{ "name": "lastSync"}]
+        },
+        { 
+            "name": "messageBridgeServer", 
+            "props": [{ "name": "bridgeServer"}]
+        },
+        { 
+            "name": "messageBridgePort", 
+            "props": [{ "name": "bridgePort"}]
+        }
+    ]
+}

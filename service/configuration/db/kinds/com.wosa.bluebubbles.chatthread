@@ -1,0 +1,26 @@
+{
+    "id": "com.wosa.bluebubbles.chatthread:1",
+    "extends": [ "com.palm.chatthread:1" ],
+    "owner": "com.wosa.bluebubbles.service",
+    "sync": true,
+    "indexes": [
+        {
+            "name": "iMessageId",
+            "props": [
+                { "name": "iMessageId" }
+            ]
+        },
+        {
+            "name": "iMessageReplyId",
+            "props": [
+                { "name": "iMessageReplyId" }
+            ]
+        },
+        {
+            "name": "replyAddress",
+            "props": [
+                { "name": "replyAddress" }
+            ]
+        }
+    ]
+}

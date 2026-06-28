@@ -1,0 +1,15 @@
+{
+    "id": "com.wosa.bluebubbles",
+    "version": "1.0.4",
+    "vendor": "webOS Archive",
+    "type": "web",
+    "main": "index.html",
+    "title": "BlueBubbles",
+    "icon": "icon.png",
+    "splashicon": "icon-256.png",
+    "uiRevision": "2",
+    "copyright": "Copyright 2026, webOS Archive",
+    "ossRepo": "https://github.com/webosarchive/webos-bluebubbles-synergy",
+    "requiredPermissions": ["bluebubbles-service.operation", "appmanager.management", "preferences.systempropertyquery"],
+    "trustLevel": "trusted"
+}

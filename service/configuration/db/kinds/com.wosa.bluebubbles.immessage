@@ -1,0 +1,27 @@
+{
+    "id": "com.wosa.bluebubbles.immessage:1",
+    "extends": [ "com.palm.immessage:1" ],
+    "owner": "com.wosa.bluebubbles.service",
+    "sync": true,
+    "indexes": [
+        {
+            "name": "iDispatchId",
+            "props": [
+                { "name": "iDispatchId" }
+            ]
+        },
+        {
+            "name": "iMessageId",
+            "props": [
+                { "name": "iMessageId" }
+            ]
+        },
+        {
+            "name": "statusFolder",
+            "props": [
+                { "name": "status" },
+                { "name": "folder" }
+            ]
+        }
+    ]
+}

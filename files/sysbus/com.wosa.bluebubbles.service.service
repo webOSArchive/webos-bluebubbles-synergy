@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=com.wosa.bluebubbles.service
+Exec=/usr/bin/run-js-service -n /usr/palm/services/com.wosa.bluebubbles.service

@@ -1,0 +1,14 @@
+{
+    "appId": "com.wosa.bluebubbles.service",
+    "allowedNames": ["com.wosa.bluebubbles.service"],
+    "trustLevel" : "oem",
+    "type": "privileged",
+    "permissions": [
+        {
+            "service":"com.wosa.bluebubbles.service",
+            "inbound":["*"],
+            "outbound":["*"]
+        }
+    ]
+}
+

@@ -1,0 +1,4 @@
+*.ipk
+com.palm.app.messaging
+.DS_Store
+.claude/settings.local.json

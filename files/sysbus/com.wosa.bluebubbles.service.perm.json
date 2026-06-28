@@ -1,0 +1,11 @@
+{
+    "com.wosa.bluebubbles.service": [ 
+        "bluebubbles-service.operation",
+        "appmanager.management",
+        "preferences.systempropertyquery",
+        "keymanager-service.operation",
+        "database.operation",
+        "activity.operation"
+    ]
+}
+

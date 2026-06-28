@@ -1,0 +1,38 @@
+{
+    "templateId": "com.wosa.bluebubbles.messages",
+    "loc_name": "BlueBubbles",
+    "loc_shortName": "iMessage",
+    "hidden": false,
+    "invisible": false,
+    "implementation": "palm://com.wosa.bluebubbles.service/",
+    "readPermissions": ["com.wosa.bluebubbles.service", "com.wosa.bluebubbles.service.*", "com.palm.app.messaging", "com.palm.app.phone", "com.palm.service.contacts.linker"],
+    "writePermissions": ["com.wosa.bluebubbles.service", "com.wosa.bluebubbles.service.*", "com.palm.app.messaging"],
+    "validator": "palm://com.wosa.bluebubbles.service/checkCredentials",
+    "loc_usernameLabel": "Your Name",
+    "loc_passwordLabel": "Password (use any value)",
+    "icon": {"loc_32x32": "images/icon-32.png", "loc_48x48": "images/icon-48.png", "splitter": "images/icon-32.png"},
+    "capabilityProviders": [{
+        "id": "com.wosa.bluebubbles.messages",
+        "loc_name": "BlueBubbles",
+        "loc_shortName": "iMessage",
+        "serviceName":"iMessage",
+        "capability": "MESSAGING",
+        "alwaysOn": true,
+        "supportsInvisibleStatus": false,
+        "chatWithNonBuddies": true,
+        "readOnlyData": false,
+        "implementation": "palm://com.wosa.bluebubbles.service/",
+        "onCreate": "palm://com.wosa.bluebubbles.service/onCreate",
+        "onEnabled": "palm://com.wosa.bluebubbles.service/onEnabled",
+        "onDelete": "palm://com.wosa.bluebubbles.service/onDelete",
+        "onCapabilitiesChanged" : "palm://com.wosa.bluebubbles.service/onCapabilitiesChanged",       
+        "onCredentialsChanged" : "palm://com.wosa.bluebubbles.service/onCredentialsChanged", 
+        "sync": "palm://com.wosa.bluebubbles.service/sync",
+        "sendIM": "palm://com.wosa.bluebubbles.service/sendIM",
+        "dbkinds": {
+            "immessage": "com.wosa.bluebubbles.immessage:1",
+            "chatthread": "com.wosa.bluebubbles.chatthread:1",
+            "configuration": "com.wosa.bluebubbles.configuration:1"
+        }
+    }]
+}

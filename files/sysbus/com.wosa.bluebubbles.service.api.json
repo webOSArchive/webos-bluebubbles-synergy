@@ -1,0 +1,16 @@
+{
+    "bluebubbles-service.operation": [
+        "com.wosa.bluebubbles.service/checkCredentials",
+        "com.wosa.bluebubbles.service/onCapabilitiesChanged",
+        "com.wosa.bluebubbles.service/onCredentialsChanged",
+        "com.wosa.bluebubbles.service/onCreate",
+        "com.wosa.bluebubbles.service/onEnabled",
+        "com.wosa.bluebubbles.service/sync",
+        "com.wosa.bluebubbles.service/periodicSync",
+        "com.wosa.bluebubbles.service/onDelete",
+        "com.wosa.bluebubbles.service/sendIM",
+        "com.wosa.bluebubbles.service/httpRequest",
+        "com.wosa.bluebubbles.service/curlCheck"
+    ]
+}
+
