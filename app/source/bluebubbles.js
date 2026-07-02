@@ -2,7 +2,7 @@ enyo.kind({
 	name: "BlueBubbles",
 	kind: "VFlexBox",
 	defaultServer: "",
-	defaultPort: 443,
+	defaultPort: 1234,
 	dbConfigId: null,
 	useServer:null,
 	usePort:null,
@@ -56,7 +56,7 @@ enyo.kind({
 					{ name: "imessagePassword", kind: "Input", value: "", inputType: "password", pack: "center", align: "start", lazy: false },
 				]
 			},
-			{name:"txtNote", className: "footnote-text", style:"margin-top: 8px", content:"<b>Note:</b> The sync service bypasses webOS proxy settings. Temporarily disable your proxy during this setup."},
+			{name:"txtNote", className: "footnote-text", style:"margin-top: 8px", content:"<b>Note:</b> Secure connections require an updated OpenSSL. Download from the modernize feed in Preware."},
 			{kind: "Button", name:"btnSaveConfig", caption:$L("Save"),  onclick:"trySaveSettings"},
 			{name:"txtAccountInfo", className: "footnote-text", style:"margin-top: 20px", content:"Complete the setup by creating a BlueBubbles account in webOS Accounts. The password there is not used &mdash; enter any value; the real server password is the one you set above."},
 			{kind: "Button", name:"btnConfigAccount", caption:$L("Accounts"), onclick:"launchAccounts"},
